@@ -1,0 +1,93 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.bg{
+    background-color: #ff7f00;
+    color: white;
+    display: inline-block;
+}
+
+.body-register-page{
+    background-image: url(../img/premium_photo-1671070687996-5b1485638342.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.body-home{
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(135deg, color-mix(in srgb, rgba(255, 127, 0, 0.5) , transparent 95%) 50%, color-mix(in srgb, rgba(255, 127, 0, 0.5), transparent 98%) 25%, transparent 50%);
+}
+
+.navbar{
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navbar h2{
+    color: #4a2501;
+    margin-top: 8px;
+}
+
+.container-fluid{
+    height: 540px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-section h1{
+    font-size: 55px;
+    font-weight: 500;
+    color: #ff7f00;
+}
+
+.hero-section h4{
+    line-height: 38px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.hero-section .btn-action{
+    display: flex;
+    justify-content: start;
+    gap: 18px;
+}
+
+@media (max-width: 768px)
+{
+    .hero-section{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .hero-section h1{
+        font-size: 35px;
+    }
+
+    .hero-section h4{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .hero-section .btn-action{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-fluid{
+        height: 640px;
+        justify-content: space-evenly;
+    }
+}
